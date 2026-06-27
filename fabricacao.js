@@ -196,7 +196,7 @@ function atualizarTotais() {
 
     const receita = receitas[index];
 
-    const multiplicador = quantidade / receita.producao;
+const multiplicador = Math.ceil(quantidade / receita.producao);
 
     for (const ingrediente in receita.ingredientes) {
 
