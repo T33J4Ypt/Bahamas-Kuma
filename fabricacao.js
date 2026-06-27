@@ -1,50 +1,129 @@
 const receitas = [
   {
-    nome: "Berbequim",
+    nome: "Lanterna",
     producao: 1,
     ingredientes: {
-      "Aço": 10,
-      "Ferro": 50
+      "Chapa de Aluminio": 1,
+      "Eletronicos": 1,
+      "Parafuso": 2,
+      "Plastico": 2
     }
   },
   {
-    nome: "Small C4",
+    nome: "Silenciador",
     producao: 1,
     ingredientes: {
-      "Pólvora": 10,
-      "Plástico": 20
+      "Barra de Ferro": 1,
+      "Borracha": 1,
+      "Plastico": 1,
+      "Parafuso": 2
     }
   },
   {
-    nome: "Signal Booster (DigiScanner)",
+    nome: "Silenciador Tático",
     producao: 1,
     ingredientes: {
-      "Alumínio": 5,
-      "Plástico": 10
+      "Chapa de Aluminio": 1,
+      "Parafuso": 2,
+      "Barra de Ferro": 2,
+      "Borracha": 2
     }
   },
   {
-    nome: "Portable Welding Machine",
+    nome: "Grip",
     producao: 1,
     ingredientes: {
-      "Carvão": 10,
-      "Ferro": 20
+      "Parafuso": 2,
+      "Barra de Ferro": 2,
+      "Borracha": 2,
+      "Plastico": 2
     }
   },
   {
-    nome: "Laptop",
+    nome: "Cano Pesado",
     producao: 1,
     ingredientes: {
-      "Alumínio": 10,
-      "Plástico": 20
+      "Chapa de Aluminio": 1,
+      "Parafuso": 2,
+      "Barra de Ferro": 2
       }
   },
   {
-    nome: "Thermite Bomb",
+    nome: "Tambor de Rifle",
     producao: 1,
     ingredientes: {
-      "Pólvora": 5,
-      "Plástico": 20
+      "Barra de Cobre": 1,
+      "Aço": 1,
+      "Borracha": 2,
+      "Barra de Ferro": 2
+      }
+  },
+  {
+    nome: "Tambor de SMG",
+    producao: 1,
+    ingredientes: {
+      "Aço": 1,
+      "Parafuso": 2,
+      "Barra de Ferro": 2
+      }
+  },
+  {
+    nome: "Carregador Ext. Rifle",
+    producao: 1,
+    ingredientes: {
+      "Barra de Cobre": 1,
+      "Aço": 1,
+      "Borracha": 2,
+      "Barra de Ferro": 2
+      }
+  },
+  {
+    nome: "Carregador Ext. SMG",
+    producao: 1,
+    ingredientes: {
+      "Barra de Ferro": 1,
+      "Aço": 1,
+      "Parafuso": 2,
+      }
+  },
+  {
+    nome: "Mira Média",
+    producao: 1,
+    ingredientes: {
+      "Barra de Ferro": 1,
+      "Chapa de Aluminio": 1,
+      "Eletronicos": 1,
+      "Parafuso": 2,
+      "Plastico": 2
+      }
+  },
+  {
+    nome: "Mira Grande",
+    producao: 1,
+    ingredientes: {
+      "Eletronicos": 1,
+      "Parafuso": 2,
+      "Plastico": 2,
+      "Barra de Ferro": 2,
+      "Chapa de Aluminio": 2
+      }
+  },
+  {
+    nome: "Boca de Precisao",
+    producao: 1,
+    ingredientes: {
+      "Aço": 1,
+      "Chapa de Aluminio": 1,
+      "Parafuso": 2,
+      }
+  },
+  {
+    nome: "Boca Tática",
+    producao: 1,
+    ingredientes: {
+      "Aço": 1,
+      "Chapa de Aluminio": 1,
+      "Parafuso": 2,
     }
   }
 ];
