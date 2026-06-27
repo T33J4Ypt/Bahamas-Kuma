@@ -169,7 +169,7 @@ function atualizarResultados(index, qtdDesejada) {
   const receita = receitas[index];
   const resultado = {};
 
-  const multiplicador = qtdDesejada / receita.producao;
+const multiplicador = Math.ceil(qtdDesejada / receita.producao);
 
   for (const ingrediente in receita.ingredientes) {
     resultado[ingrediente] = Math.ceil(
