@@ -87,6 +87,15 @@ const receitas = [
       }
   },
   {
+    nome: "Carregador Ext. Pistola",
+    producao: 2,
+    ingredientes: {
+      "Barra de Ferro": 1,
+      "Plastico": 2,
+      "Parafuso": 2,
+      }
+  },
+  {
     nome: "Mira Média",
     producao: 2,
     ingredientes: {
