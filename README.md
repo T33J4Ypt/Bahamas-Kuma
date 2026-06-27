@@ -1,2 +1,2 @@
-# Vanilla-Fearless
-Vanilla Unicorn Pricing &amp; Crafts
+# Bahamas-Kuma
+Bahamas Pricing &amp; Crafts
