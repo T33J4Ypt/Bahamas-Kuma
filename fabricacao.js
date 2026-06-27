@@ -1,7 +1,7 @@
 const receitas = [
   {
     nome: "Lanterna",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Chapa de Aluminio": 1,
       "Eletronicos": 1,
@@ -11,7 +11,7 @@ const receitas = [
   },
   {
     nome: "Silenciador",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Barra de Ferro": 1,
       "Borracha": 1,
@@ -21,7 +21,7 @@ const receitas = [
   },
   {
     nome: "Silenciador Tático",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Chapa de Aluminio": 1,
       "Parafuso": 2,
@@ -31,7 +31,7 @@ const receitas = [
   },
   {
     nome: "Grip",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Parafuso": 2,
       "Barra de Ferro": 2,
@@ -41,7 +41,7 @@ const receitas = [
   },
   {
     nome: "Cano Pesado",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Chapa de Aluminio": 1,
       "Parafuso": 2,
@@ -50,7 +50,7 @@ const receitas = [
   },
   {
     nome: "Tambor de Rifle",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Barra de Cobre": 1,
       "Aço": 1,
@@ -60,7 +60,7 @@ const receitas = [
   },
   {
     nome: "Tambor de SMG",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Aço": 1,
       "Parafuso": 2,
@@ -69,7 +69,7 @@ const receitas = [
   },
   {
     nome: "Carregador Ext. Rifle",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Barra de Cobre": 1,
       "Aço": 1,
@@ -79,7 +79,7 @@ const receitas = [
   },
   {
     nome: "Carregador Ext. SMG",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Barra de Ferro": 1,
       "Aço": 1,
@@ -88,7 +88,7 @@ const receitas = [
   },
   {
     nome: "Mira Média",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Barra de Ferro": 1,
       "Chapa de Aluminio": 1,
@@ -99,7 +99,7 @@ const receitas = [
   },
   {
     nome: "Mira Grande",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Eletronicos": 1,
       "Parafuso": 2,
@@ -110,7 +110,7 @@ const receitas = [
   },
   {
     nome: "Boca de Precisao",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Aço": 1,
       "Chapa de Aluminio": 1,
@@ -119,7 +119,7 @@ const receitas = [
   },
   {
     nome: "Boca Tática",
-    producao: 1,
+    producao: 2,
     ingredientes: {
       "Aço": 1,
       "Chapa de Aluminio": 1,
