@@ -163,11 +163,60 @@ function atualizarResultados(index, qtdDesejada) {
   const multiplicador = qtdDesejada / receita.producao;
 
   for (const ingrediente in receita.ingredientes) {
-    resultado[ingrediente] = Math.ceil(receita.ingredientes[ingrediente] * multiplicador);
+    resultado[ingrediente] = Math.ceil(
+      receita.ingredientes[ingrediente] * multiplicador
+    );
   }
 
-  const td = document.getElementById("res-" + index);
-  td.innerHTML = Object.entries(resultado)
-    .map(([ing, qtd]) => `${qtd} ${ing}`)
-    .join("<br>");
+  document.getElementById("res-" + index).innerHTML =
+    Object.entries(resultado)
+      .map(([ing, qtd]) => `${qtd} ${ing}`)
+      .join("<br>");
+
+  atualizarTotais();
+}
+function atualizarTotais() {
+
+  const totais = {};
+
+  document.querySelectorAll("input").forEach((input, index) => {
+
+    const quantidade = Number(input.value);
+
+    if (quantidade <= 0) return;
+
+    const receita = receitas[index];
+
+    const multiplicador = quantidade / receita.producao;
+
+    for (const ingrediente in receita.ingredientes) {
+
+      const qtd = Math.ceil(
+        receita.ingredientes[ingrediente] * multiplicador
+      );
+
+      totais[ingrediente] = (totais[ingrediente] || 0) + qtd;
+    }
+
+  });
+
+  const tabela = document.getElementById("tabela-totais");
+
+  tabela.innerHTML = "";
+
+  Object.entries(totais)
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .forEach(([ingrediente, qtd]) => {
+
+      const tr = document.createElement("tr");
+
+      tr.innerHTML = `
+        <td>${ingrediente}</td>
+        <td><strong>${qtd}</strong></td>
+      `;
+
+      tabela.appendChild(tr);
+
+    });
+
 }
